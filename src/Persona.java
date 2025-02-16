@@ -1,4 +1,10 @@
-
+/**
+ * Con esta clase vamos a calcular el indice de masa corporal de una persona
+ * 
+ * @author Ali-Haas91
+ * @version 1.2
+ * 
+ */
 public class Persona {
 	private double peso;/**Declaración de la variable para peso en kilos*/
 	private double altura;/**Declaración de la variable para altura en metros*/

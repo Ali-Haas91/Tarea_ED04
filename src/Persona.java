@@ -6,14 +6,20 @@
  * 
  */
 public class Persona {
-	private double peso;/**Declaración de la variable para peso en kilos*/
-	private double altura;/**Declaración de la variable para altura en metros*/
-	/**Constructor*/
+	private double peso;
+	private double altura;
+	/**
+	 * Constructor de la clase Persona
+	 * @param peso de la perosna en kilogramos
+	 * @param altura de la persona en metros
+	 * */
 	public Persona(double peso, double altura) {
 		this.peso = peso;
 		this.altura = altura;
 	}
-	/**Metodo para calcular el IMC*/
+	/**
+	 * Metodo para calcular el IMC
+	 * @return El indice de masa corporal de la persona*/
 	public double calculoIMC() {
 		return peso / (altura * altura);		
 		
@@ -21,6 +27,9 @@ public class Persona {
 	/**Metodo para generar mensajes personalizados*/
 	public String mensaje() {
 		double imc= calculoIMC();/**Declaracion y asignacion de variable imc para condicionales*/
+		/**
+		 * @return Imprime un mensaje segun el return del calculoIMC.
+		 */
 		if (imc < 18.5) {
 			return "Tu IMC es de " + imc + ". Estas por debajo de tu peso normal. ¡Consulta con tu medico!";
 		}

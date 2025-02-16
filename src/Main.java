@@ -1,6 +1,11 @@
 import java.util.Scanner;
+/**
+ * Clase raiz que ejcuta la aplicacion.
+ */
 public class Main {
-
+	/*
+	 * Metodo principal que inicia la ejecucion de la aplicacion.
+	 */
 	public static void main(String[] args) {
 		Scanner Entrada = new Scanner(System.in);
 			/**Solicitud del peso*/
